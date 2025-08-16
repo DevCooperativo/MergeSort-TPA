@@ -10,7 +10,7 @@ public class Execucao
         int[] vetor = new int[qtd];
         for (int i = 0; i < qtd; i++)
         {
-            vetor[i] = rnd.Next(0, 100);
+            vetor[i] = rnd.Next(0, 100000000);
         }
         Console.WriteLine($"Execução com {qtd} valores");
         Console.WriteLine($"Antes: {string.Join(", ", vetor.Take(15))}...");
